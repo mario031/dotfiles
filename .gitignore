@@ -1,0 +1,20 @@
+###### all ignore ######
+/*
+/.*
+/.*/*
+/.*/*/*
+
+###### not ignore list ######
+!/.zshrc
+# exec directory
+!/.bin/
+!/.bin/*
+# vscode
+!/.vscode
+!settings.json
+# etc
+!/README.md
+
+###### final not ignore list ######
+!.gitignore
+!.gitignore_global
