@@ -34,6 +34,7 @@ alias mv='mv -i'
 alias vi='vim'
 alias cat='cat -n'
 alias history='fc -l'
+alias dc='docker-compose'
 
 # 文字コードの指定
 export LANG=ja_JP.UTF-8
@@ -83,7 +84,6 @@ bindkey -e
 
 # 補完で小文字でも大文字にマッチさせる
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
-source ~/Documents/karte-io/scripts/karte.sh.inc
 
 # Setup ssh-agent
 if [ -f ~/.ssh-agent ]; then
@@ -101,3 +101,4 @@ if [ -f '/Users/ishikawa/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/ishika
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/Users/ishikawa/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/ishikawa/google-cloud-sdk/completion.zsh.inc'; fi
+source ~/Documents/mario_command/scripts/mario.sh.inc

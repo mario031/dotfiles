@@ -72,5 +72,15 @@
     "python.pythonPath": "/Users/ishikawa/tensorflow/bin/python3",
     "[python]": {},
     "vsicons.dontShowNewVersionMessage": true,
-    "gitlens.gitCommands.closeOnFocusOut": true
+    "gitlens.gitCommands.closeOnFocusOut": true,
+    "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
